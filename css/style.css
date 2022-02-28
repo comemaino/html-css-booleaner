@@ -1,9 +1,15 @@
-.head-container {
+body {
+    margin: 0;
+}
+
+/* HEADER */
+header {
     background-image: url("pattern.png");
     background-size: contain;
     background-color: #4ea0ff;
     height: 150px;
     position: relative;
+    
 }
 
 .logo {
@@ -11,4 +17,68 @@
     position: absolute;
     bottom: 10%;
     left: 1%;
+}
+
+/* INTESTAZIONE */
+
+main {
+    margin-left: 8px;
+}
+
+h1 {
+    margin-bottom: 0;
+    
+}
+
+.scritto-da {
+    margin-top: 0;
+    color: #909090;
+    font-weight: 600;
+}
+
+.home-link {
+    color: #5bd3f1;
+    text-decoration: none;
+}
+
+.date {
+    font-size: .7em;
+}
+
+/* IMMAGINI */
+
+.dida {
+    margin-top: 0;
+    font-size: 0.7em;
+}
+
+/* CORPO */
+
+.highlight {
+    background-color: #ffff00;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0px;
+}
+
+/* TABELLA */
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    color: #ffffff;
+    background-color: #20a9e5;
+    text-align: left;
+}
+
+.odd-row {
+    background-color: #92d9eb;
+}
+
+.third-column {
+    width: 50%;
 }
