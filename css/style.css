@@ -1,0 +1,14 @@
+.head-container {
+    background-image: url("pattern.png");
+    background-size: contain;
+    background-color: #4ea0ff;
+    height: 150px;
+    position: relative;
+}
+
+.logo {
+    width: 25%;
+    position: absolute;
+    bottom: 10%;
+    left: 1%;
+}
