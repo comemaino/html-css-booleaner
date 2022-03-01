@@ -3,8 +3,7 @@ body {
 }
 
 .container {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 0 5%;
 }
 /* HEADER */
 header {
@@ -20,7 +19,7 @@ header {
     width: 20%;
     position: absolute;
     bottom: 10%;
-    margin-left: 100px;
+    margin: 0 5%;
 }
 
 /* INTESTAZIONE */
@@ -36,8 +35,8 @@ h1 {
 
 .scritto-da {
     margin-top: 0;
-    color: #909090;
     font-weight: 600;
+    color: #909090;
 }
 
 .home-link {
@@ -54,6 +53,10 @@ h1 {
 .dida {
     margin-top: 0;
     font-size: 0.7em;
+}
+
+.img-container img{
+    max-width: 100%;
 }
 
 /* CORPO */
@@ -83,29 +86,28 @@ thead {
     text-align: left;
 }
 
-.odd-row {
+table .odd-row {
     background-color: #92d9eb;
 }
 
-.third-column {
+table .third-column {
     width: 50%;
 }
 
-/* CORRELATI */
+/* CORRELATI */ 
 
 h4{
-    color: #909090;
     margin-bottom: 0;
+    color: #909090;
 }
 
-.correlati {
+h4.correlati {
     background-size: contain;
     width: 156px;
     height: 104px;
-    color: #ffffff;
-    padding-left: 10px;
-    padding-top: 5px;
+    padding: .7em;
     margin-top: 5px;
+    color: #ffffff;
 }
 
 #corr-01 {
